@@ -56,7 +56,7 @@ total 0
   make && make install
 ```
 
-####2. 编写同步脚本
+#### 3. 编写同步脚本
 vi [path]/inotifyrsync.sh
 ```shell
 #!/bin/bash
@@ -74,7 +74,7 @@ done
 其中 host1 是 client 的 ip，src 是 server 端要实时监控的目录，dst1 目的路径（不能以/开始），user1 是建立密码文件里的认证用户。\
 然后给这个脚本赋予权限
 `chmod 755 inotifyrsync.sh`
-后台运行：
+#### 4. 后台运行：
 ```shell
 nohup ./inotifyrsync.sh >inotifyrsync.nohup 2>&1 &
 ```
