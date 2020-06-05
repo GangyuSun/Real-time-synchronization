@@ -28,7 +28,7 @@ example: ssh-copy-id -i ~/.ssh/id_rsa.pub user1@xx.xx.xx.xx
 记住更改同步服务器authorized_keys的权限：`chmod 600 ~/.ssh/authorized_keys`
 
 ## 部署rsync
-需要管理员权限
+需要管理员权限,一般情况下服务器都会支持rsync
 
 ## 部署inotify
 #### 1. 首先检查系统内核是否支持 inotify
