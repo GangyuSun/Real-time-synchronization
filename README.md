@@ -1,4 +1,4 @@
-# Real-time-Synchronization
+# Linux普通用户的文件实时同步增量备分
 
 ## 配置免密AB机器
 - 源服务器 A 
